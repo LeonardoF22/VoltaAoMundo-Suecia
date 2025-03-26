@@ -1,0 +1,39 @@
+.bg-azul{
+    background-color: #004B87;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.card {
+    border: 2px solid #FFD700;
+    
+}
+
+img {
+    margin: -1px;
+}
+
+.navbar-toggler {
+    border-color: #FFD700; /* Cor da borda do botão */
+}
+
+.navbar-toggler-icon {
+    background-color: #FFD700; /* Cor do ícone */
+}
+
+/* Fixar o footer no final do site */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.row{
+    margin: 0;
+}
